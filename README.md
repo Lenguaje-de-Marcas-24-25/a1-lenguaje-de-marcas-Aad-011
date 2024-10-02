@@ -61,13 +61,10 @@ Mensajería -->  Respecto al intercambio de mensajes se busca la flexibilidad y 
     FN:Juan Pérez
     ORG:Empresa Ejemplo S.A.
     TEL;TYPE=WORK,VOICE:(555) 123-4567
-    EMAIL:juan.perez@ejemplo.com
-    END:VCARD
     Estructura: vCard define tarjetas de contacto electrónicas con atributos como FN, ORG y TEL.
     Aplicación: Utilizado en aplicaciones de contactos como Google Contacts, Apple Contacts o Microsoft Outlook
 4. KML
    <?xml version="1.0" encoding="UTF-8"?>
-    <kml xmlns="http://www.opengis.net/kml/2.2">
     <Placemark>
         <name>Ubicación de Ejemplo</name>
         <description>Este es un marcador de ejemplo.</description>
@@ -80,14 +77,12 @@ Mensajería -->  Respecto al intercambio de mensajes se busca la flexibilidad y 
     Aplicación: Procesado por Google Earth, Google Maps, y otras herramientas de mapeo geográfico
 5. RSS:
     <?xml version="1.0"?>
-    <rss version="2.0">
     <channel>
         <title>Noticias de Ejemplo</title>
         <link>http://www.ejemplo.com</link>
         <description>Últimas noticias del sitio de ejemplo</description>
         <item>
         <title>Título de la noticia 1</title>
-        <link>http://www.ejemplo.com/noticia1</link>
         <description>Descripción de la noticia 1</description>
         <pubDate>Mon, 02 Oct 2023 12:00:00 GMT</pubDate>
         </item>
